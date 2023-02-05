@@ -158,7 +158,7 @@ class App(object):
     def __init__(self, app, maze, **kwargs):
         self.maze = maze
         self.app = app
-        self.canvas = Canvas(self.app,width=842,height=842)
+        self.canvas = Canvas(self.app,width=515,height=640)
         self.canvas.pack()
         
         global imageRato
